@@ -29,7 +29,7 @@ jobs:
       - run:
           name: Running tests
           command: mvn clean test
-      - run:
+#      - run:
 #          name: Generate allure report
 #          command: mvn allure:report
 #          when: always
