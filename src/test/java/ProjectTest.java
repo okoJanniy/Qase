@@ -18,9 +18,9 @@ public class ProjectTest extends BaseTest {
         $("#inputCode").sendKeys("AP");
         $("#inputDescription").sendKeys("This my new project");
         $("#public-access-type").click();
-        $(".submit").shouldBe(Condition.text("Create project")).click();
+        $(".btn-primary").click();
         $(".col").click();
-        $(".defect-title").shouldBe(Condition.text("TestProject"));
+       // $(".project-name").shouldBe(Condition.visible);
 
     }
 }
